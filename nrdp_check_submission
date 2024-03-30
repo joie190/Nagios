@@ -1,0 +1,23 @@
+{
+    "checkresults": [
+        {
+                "checkresult": {
+                   "type": "host",
+                   "checktype": "1"
+                },
+                "hostname": "linuxhost2",
+                "state": 0,
+                "output": "Everything looks okay!;"
+        },
+        {
+                "checkresult": {
+                   "type": "service",
+                   "checktype": "1"
+                },
+                "hostname": "linuxhost2",
+                "servicename": "HostAlive",
+                "state": 1,
+                "output": "Everything looks okay!;"
+        }   
+      ]
+ }
